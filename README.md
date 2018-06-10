@@ -1,15 +1,19 @@
-REminiscence libretro
+REminiscence libretro for Switch
 =====================
 
-Port of Gregory Montoir's Flashback emulator, running as a libretro core.
+Swithc port of Gregory Montoir's Flashback emulator, running as a libretro core.
 
 ## Info
 
 This port is still a work in progress, however it is in a working state. 
 Currently, it jumps directly into the game, skipping the main menu.
 
-## Running
+## Running the game
 
-* PC game data files
-* Amiga .mod files (for music)
-* VOICE.VCE for in-game dialog (optional) 
+* Place game files in their own /data/ folder in the same directory as REminiscence-nx.nro
+* When loading game content, load "level1.map"
+
+## Music
+
+* Music is supported but must be loaded from Amiga .mod files
+* Files must be named mod.flashback-xxxx and placed in the /data/ directory
